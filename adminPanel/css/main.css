@@ -97,8 +97,145 @@ textarea {
 
 
 
+.clear{
+    overflow: hidden;  }
+.template{
+    width:960px;
+    margin:0 auto;
+}
+.headerClass{
+    background: #9ED18B;
+}
+.headerClass h2{
+    text-align: center;
+    color: #098a20;
+    padding: 0px;
+    font-size: 30px;
+    margin: 0px;
+}
+.mainMenu{
+    width:960px;
+    background: #9ED18B;
+}
+.mainMenu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float: right;
+}
+.mainMenu ul li{
+    float: left;
+    display: block;
+}
+.mainMenu ul li a{
+    display: block;
+    text-decoration: none;
+    color: #264466;
+    margin: 5px;
+    padding: 5px;
+}
+.mainMenu ul li a:hover{
+    background: #264466;
+    color: #9ED18B;
+}
+.contentSection{}
+.leftContent{
+    background: #9ED18B;
+    width: 250px;
+    margin-right:10px;
+    float: left;
+}
+.sideBar{}
+.sideBar h3{
+    background: #264466;
+    color: #DEC;
+    text-align: center;
+    padding: 9px 12px;
+    margin: 0px auto;
+    border-bottom: solid #26440D;
+}
+.sideBar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.sideBar ul li{
+    display: block;
+}
+.sideBar ul li a{
+    display: block;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 5px;
+    text-align: center;
+}
+.sideBar ul li:hover{
+    background: #3879D9;}
+.mainContent{
+    width:700px;
+    float: right;}
 
+.footerSection{
+    background: #9ED18B;
+    text-align: center;
+}
+/* ======================== USER.html file design ============================ */
+.content{
 
+}
+.content h2{
+    color: #098A20;
+    border-bottom: 2px solid;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+    margin-left: 16px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 300px;
+}
+input[type="submit"]{
+    margin-left: 20px;
+    background: #098A20;
+    color: #fff;
+    padding: 8px;
+    border: 1px;
+}
+input[type="submit"]:hover{
+    background: #264466;
+}
+
+.mytable{
+    width: 100%;
+}
+.mytable th{
+    text-align: center;
+    background: #9ED18B;
+    padding: 5px;
+}
+.mytable td{
+    text-align: center;
+    padding: 4px;
+}
+.mytable tr{}
+.mytable tr:nth-child(2n+1){
+    background: #bfe0bb;
+}
+.mytable tr:nth-child(2n){
+
+}
+.mytable a{
+    text-decoration: none;
+}
+.mytable a:hover{
+    text-decoration: underline;
+}
+textarea{
+    margin-left: 16px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 100px;
+}
 
 
 
